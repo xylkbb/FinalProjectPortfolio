@@ -1,0 +1,227 @@
+body {
+    background-color: #C49963;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    background-color: #98673F;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px
+}
+
+h3 {
+    font-size: 30px
+}
+
+#navigation {
+    font-size: 20px;
+
+}
+
+.navigation {
+    font-size: 20px;
+}
+
+a:hover {
+    color: pink;
+    text-align: center;
+}
+
+.main-text {
+    color: #1C1C1C;
+    font-size: 35px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.secondary-text {
+    color: #1C1C1C;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.third-text {
+    color: #1C1C1C;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.video {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    overflow: hidden;
+}
+
+
+#videoUno {
+
+}
+
+#videoDos {
+    height: 40%;
+    width: 29%;
+    transform: translate(600px, -430px);
+
+}
+
+#video-textOne {
+
+}
+
+#video-textTwo {
+    transform: translate(750px, -430px);
+
+}
+
+#videoThres {
+    height: 40%;
+    width: 29%;
+    transform: translate(1300px, -2400px);
+
+}
+
+#video-textThree {
+    transform: translate(1500px, -2400px);
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-left ol {
+    width: auto;
+    float: left;
+    display: block;
+    background-color: #6899D3;
+    margin: 0;
+/ / RESET DEFAULT padding: 0;
+/ / RESET DEFAULT
+}
+
+#image1 {
+    transform: translate(50px, -0px);
+
+}
+
+#image2 {
+    transform: translate(450px, -320px);
+
+}
+
+#image3 {
+    transform: translate(860px, -635px);
+
+}
+
+#image4 {
+    transform: translate(1260px, -950px);
+
+}
+
+#image5 {
+    transform: translate(1630px, -1270px);
+
+}
+
+#image6 {
+    transform: translate(200px, 400px);
+    bottom: 15%;
+    position: absolute;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 5s;
+}
+
+
+#ImageText1 {
+    transform: translate(230px, 648px);
+
+}
+
+#ImageText2 {
+    transform: translate(900px, 580px);
+
+}
+
+#ImageText3 {
+    transform: translate(1560px, 488px);
+
+}
+
+img:hover {
+    animation: shake 0.5s;
+
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+.secondPageNavigation {
+    transform: translate(50px, -1587px);
+
+}
+
+
+#cfw {
+    bottom: 15%;
+    position: absolute;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 5s;
+}
+
+@keyframes run {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: 0;
+    }
+}

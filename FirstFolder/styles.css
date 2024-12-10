@@ -1,0 +1,111 @@
+body {
+    background-color: #C49963;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    background-color: #98673F;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+h2{
+    font-size:40px;
+    text-align: center;
+}
+
+h3{
+    font-size:30px
+}
+
+
+#highlghtedone{
+    color: #d34a56;
+}
+
+#highlghtedtwo{
+    color: #d34a56;
+}
+
+.main-text{
+    color: #1C1C1C;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.second-text{
+    color: #1C1C1C;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+#first{
+    color:#24120c;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.information-text{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+#second{
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+
+#navigation{
+    font-size: 20px;
+
+}
+
+.navigation{
+    font-size: 20px;
+}
+
+a:hover {
+    color: pink;
+    text-align: center;
+}
+
+img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#image2{
+   transform: translate(400px,-315px);
+}
+#image3{
+    transform: translate(800px,-630px);
+}
+#image4{
+    transform: translate(1200px,-945px);
+}
+#image5{
+    transform: translate(1600px,-1260px);
+}
